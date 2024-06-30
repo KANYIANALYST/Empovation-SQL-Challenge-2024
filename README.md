@@ -7,7 +7,7 @@ This document provides a comprehensive overview of the SQL analyses performed du
 For this analysis, Microsoft SQL Server Management Studio (SSMS) was used. The database named "Electronics_store" was created, and the datasets were uploaded into this database.
 
 ## Datasets
-The analysis was conducted using the following datasets:
+The analysis was conducted using Electronic Store dataset from Empovation with the following files:
 
 1. **Products**: Information about products including product ID, name, category, and price.
 2. **Categories**: Details about product categories.
@@ -23,11 +23,9 @@ The analysis was conducted using the following datasets:
 ## Data Cleaning
 Before analysis, the datasets were cleaned to ensure data integrity and consistency. The following steps were taken:
 
-1. **Missing Values**: Identified and handled missing values using appropriate imputation techniques or by excluding incomplete records.
-2. **Data Types**: Ensured that data types for each column were appropriate (e.g., dates formatted correctly, numeric fields correctly typed).
-3. **Duplicate Records**: Removed duplicate records to avoid skewing the analysis.
-4. **Date Formatting**: Standardized date formats to ensure consistency across analyses.
-5. **Consistency Checks**: Ensured consistency in categorical values (e.g., gender, location) to avoid discrepancies in grouping and aggregation.
+1. **Data Types**: Ensured that data types for each column were appropriate (e.g., dates formatted correctly, numeric fields correctly typed).
+2. **Date Formatting**: Standardized date formats to ensure consistency across analyses.
+3. **Consistency Checks**: Ensured consistency in categorical values (e.g., gender, location) to avoid discrepancies in grouping and aggregation.
 
 ## Analysis and Insights
 
